@@ -163,3 +163,555 @@ html,body{
 #heroright p:nth-child(3){
     margin-bottom: 100px;
 }
+
+
+@media (min-width: 1600px) {
+
+    #workingarea {
+        width: 80%;
+    }
+
+    #hero {
+        top: 50%;
+        align-items: center;
+    }
+
+    #heroleft {
+        width: 70%;
+        min-width: 0;
+    }
+
+    #heroleft .elem {
+        height: 9vw;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 10vw;
+    }
+
+    #heroleft button {
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+
+    #heroright {
+        width: 17%;
+    }
+
+    #heroright #imagediv {
+        height: 190px;
+    }
+
+    #heroright p {
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================================
+   2. NORMAL LAPTOP
+   1025px - 1599px
+   ========================================================= */
+
+@media (min-width: 1025px) and (max-width: 1599px) {
+
+    #workingarea {
+        width: 86%;
+    }
+
+    #nav {
+        padding: 30px 0;
+    }
+
+    #nav img {
+        height: 48px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 30px;
+    }
+
+
+    /* HERO */
+
+    #hero {
+        top: 50%;
+        align-items: center;
+    }
+
+    #heroleft {
+        width: 72%;
+        min-width: 0;
+    }
+
+    #heroleft .elem {
+        height: 8vw;
+        max-height: 105px;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 8vw;
+        max-font-size: 105px;
+    }
+
+    #heroleft button {
+        font-size: 30px;
+        padding: 10px 32px;
+        margin-top: 20px;
+    }
+
+
+    /* RIGHT CONTENT */
+
+    #heroright {
+        width: 20%;
+    }
+
+    #heroright p {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+
+    #heroright #imagediv {
+        height: 150px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #heroright p:nth-child(3) {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* =========================================================
+   3. SHORT LAPTOP
+   Example: 1366 x 768
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1400px) and (max-height: 800px) {
+
+    #workingarea {
+        width: 88%;
+    }
+
+    #nav {
+        padding: 20px 0;
+    }
+
+    #nav img {
+        height: 42px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 28px;
+    }
+
+
+    /* HERO */
+
+    #hero {
+        top: 52%;
+        align-items: center;
+    }
+
+    #heroleft {
+        width: 73%;
+    }
+
+    #heroleft .elem {
+        height: 75px;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 75px;
+    }
+
+    #heroleft button {
+        font-size: 27px;
+        padding: 8px 28px;
+        margin-top: 15px;
+    }
+
+
+    /* RIGHT */
+
+    #heroright {
+        width: 19%;
+    }
+
+    #heroright p {
+        font-size: 11px;
+        line-height: 1.05;
+    }
+
+    #heroright #imagediv {
+        height: 125px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    #heroright p:nth-child(3) {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* =========================================================
+   4. TABLET / SMALL LAPTOP
+   769px - 1024px
+   ========================================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    #workingarea {
+        width: 90%;
+    }
+
+    #nav {
+        padding: 22px 0;
+    }
+
+    #nav img {
+        height: 40px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 20px;
+    }
+
+    #nav a {
+        font-size: 10px;
+    }
+
+
+    /* HERO */
+
+    #hero {
+        top: 50%;
+        align-items: center;
+    }
+
+    #heroleft {
+        width: 70%;
+        min-width: 0;
+    }
+
+    #heroleft .elem {
+        height: 70px;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 70px;
+    }
+
+    #heroleft button {
+        font-size: 25px;
+        padding: 8px 25px;
+        margin-top: 15px;
+    }
+
+
+    /* RIGHT */
+
+    #heroright {
+        width: 23%;
+    }
+
+    #heroright p {
+        font-size: 10px;
+        line-height: 1.1;
+    }
+
+    #heroright #imagediv {
+        height: 120px;
+        margin: 12px 0 15px;
+    }
+
+    #heroright p:nth-child(3) {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* =========================================================
+   5. MOBILE
+   481px - 768px
+   ========================================================= */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    #workingarea {
+        width: 90%;
+    }
+
+    #nav {
+        padding: 20px 0;
+    }
+
+    #nav img {
+        height: 38px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 15px;
+    }
+
+    #nav a {
+        font-size: 9px;
+    }
+
+
+    /* HERO */
+
+    #hero {
+        position: absolute;
+        top: 48%;
+        left: 0;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        transform: translateY(-50%);
+
+        gap: 30px;
+    }
+
+
+    /* LEFT */
+
+    #heroleft {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #heroleft .elem {
+        height: 15vw;
+        max-height: 100px;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 15vw;
+        white-space: nowrap;
+    }
+
+    #heroleft button {
+        font-size: 24px;
+        padding: 8px 24px;
+        margin-top: 15px;
+    }
+
+
+    /* RIGHT */
+
+    #heroright {
+        width: 100%;
+        align-items: flex-end;
+
+        /* IMPORTANT */
+        position: static;
+        transform: none;
+    }
+
+    #heroright p {
+        width: 65%;
+        font-size: 11px;
+        line-height: 1.15;
+    }
+
+    #heroright #imagediv {
+        width: 65%;
+        height: 130px;
+
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+
+    #heroright p:nth-child(3) {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* =========================================================
+   6. SMALL MOBILE
+   320px - 480px
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    #workingarea {
+        width: 92%;
+    }
+
+    #nav {
+        padding: 15px 0;
+    }
+
+    #nav img {
+        height: 30px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 9px;
+    }
+
+    #nav a {
+        font-size: 7px;
+    }
+
+
+    /* HERO */
+
+    #hero {
+        top: 47%;
+
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        gap: 22px;
+
+        transform: translateY(-50%);
+    }
+
+
+    /* LEFT */
+
+    #heroleft {
+        width: 100%;
+        min-width: 0;
+    }
+
+    #heroleft .elem {
+        height: 17vw;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 17vw;
+        white-space: nowrap;
+    }
+
+    #heroleft button {
+        font-size: 21px;
+        padding: 7px 20px;
+        margin-top: 12px;
+    }
+
+
+    /* RIGHT */
+
+    #heroright {
+        width: 100%;
+        align-items: flex-end;
+
+        position: static;
+        transform: none;
+    }
+
+    #heroright p {
+        width: 78%;
+        font-size: 9px;
+        line-height: 1.1;
+    }
+
+    #heroright #imagediv {
+        width: 78%;
+        height: 100px;
+
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+
+    #heroright p:nth-child(3) {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* =========================================================
+   7. VERY SMALL PHONE
+   320px and below
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+    #workingarea {
+        width: 94%;
+    }
+
+    #nav {
+        padding: 12px 0;
+    }
+
+    #nav img {
+        height: 27px;
+    }
+
+    #nleft,
+    #nright {
+        gap: 7px;
+    }
+
+    #nav a {
+        font-size: 6px;
+    }
+
+
+    #hero {
+        top: 46%;
+        gap: 18px;
+    }
+
+
+    #heroleft .elem {
+        height: 18vw;
+    }
+
+    #heroleft .elem h1 {
+        font-size: 18vw;
+    }
+
+    #heroleft button {
+        font-size: 19px;
+        padding: 6px 18px;
+        margin-top: 10px;
+    }
+
+
+    #heroright p {
+        width: 82%;
+        font-size: 8px;
+    }
+
+    #heroright #imagediv {
+        width: 82%;
+        height: 85px;
+    }
+}
+
+
+/* =========================================================
+   FIXES
+   ========================================================= */
+
+#heroright p {
+    font-size: 14px;
+}
+
+
+/* Mobile font override */
+@media (max-width: 768px) {
+    #heroright p {
+        font-size: 11px;
+    }
+}
